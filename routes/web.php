@@ -11,11 +11,7 @@
 |
 */
 
-Route::get('/', ([
+Route::get('/', [
     "uses" => "MainController@getIndex",
     "as" => "index"
-]));
-Route::get('/', ([
-    "uses" => "MainController@getPages",
-    "as" => "index"
-]));
+]);
